@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/text_view_item_moedas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Moedas"
+        android:textColor="#FFFFFF"
+        android:translationX="85dp" />
+
+    <TextView
+        android:id="@+id/text_view_item_pontuacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pontuação"
+        android:textColor="#FFFFFF"
+        android:translationX="85dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Moedas:"
+        android:textColor="#FFFFFF"
+        android:translationY="-39dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pontuação:"
+        android:textColor="#FFFFFF"
+        android:translationY="-39dp" />
+
+</LinearLayout>
